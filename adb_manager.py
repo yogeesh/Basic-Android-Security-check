@@ -4,8 +4,6 @@ class adb:
 
 
     def __init__(self):
-
-        hi hithithit
         pass
 
     
@@ -39,18 +37,22 @@ class adb:
                                                   any device: "))]
         
             
-    def check_adb_installed():
+    def check_adb_installed(self):
         """
         Checks if adb is installed and it should added in PATH.
         """
+
+
+
         pass
 
 
-    def get_devices():
+    def get_devices(self):
         """
         Gets all the devices attached to the host machine.
         """
-        pass
+        devList = self.call("devices")
+        return devList
 
 
     

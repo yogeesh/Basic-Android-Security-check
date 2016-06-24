@@ -49,7 +49,9 @@ class adb:
             print "ADB can not access the device as the status of the device: %s"%self.selected_device[1]
         else:
             print "Selected Device: %s\n"%self.selected_device[0]
-            
+        
+        self.selected_device = self.selected_device[0]
+
     def check_adb_installed(self):
         """
         Checks if adb is installed and it should added in PATH.

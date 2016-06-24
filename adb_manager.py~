@@ -18,10 +18,10 @@ class adb:
            Multiple device - Manual
         """
         if not self.check_adb_installed():
-            print "\nPlease install \"Android Debug Bridge\"(ADB) \
+            print "Please install \"Android Debug Bridge\"(ADB) \
                             to proceed further."
         else:
-            print "\nAndroid Debug Bridge is active!\n"
+            print "Android Debug Bridge is active!"
 
 
         devices = self.get_devices()
@@ -43,12 +43,9 @@ class adb:
                 if not devices[device_num][1].startswith("device"):
                     print_str += " (This device can NOT acessed please check!)"
                 print print_str
-            self.selected_device = devices[int(raw_input("\nChoose " + \
+            self.selected_device = devices[int(raw_input("Choose " + \
                                                   "any device: "))]
-        if self.selected_device[1] != "device":
-            print "ADB can not access the device as the status of the device: %s"%self.selected_device[1]
-        else:
-            print "Selected Device: %s\n"%self.selected_device[0]
+        
             
     def check_adb_installed(self):
         """
@@ -88,4 +85,4 @@ class adb:
     
 if __name__ == "__main__":
     adb()._start()
-    print "\nThanks!!!\n"
+    print "\n\n\nThanks!!!"

@@ -4,6 +4,8 @@ class adb:
 
 
     def __init__(self):
+
+        hi hithithit
         pass
 
     

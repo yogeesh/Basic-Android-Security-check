@@ -52,6 +52,8 @@ class adb:
         
         self.selected_device = self.selected_device[0]
 
+        #print self.check_root_premission()
+        
     def check_adb_installed(self):
         """
         Checks if adb is installed and it should added in PATH.
@@ -73,9 +75,13 @@ class adb:
         """
         Gets all the devices attached to the host machine.
         """
-        cmd = subprocess.Popen(["adb", "devices"], stdout=subprocess.PIPE)
-        output, error = cmd.communicate()
-        
+        try:
+            cmd = subprocess.Popen(["adb", "devices"], stdout=subprocess.PIPE)
+            output, error = cmd.communicate()
+        except:
+            print "Seems like ADB is not working properly! recheck 'adb devices' manually."
+            return []
+            
         #Process the output for getting devices
         devices = list()
         for output_line in output.split('\n'):
@@ -87,7 +93,38 @@ class adb:
         
         return devices
 
+
+
+    def run_commnad(self, command, shell=True):
+        """
+        commnad: adb shell command, takes as a string
+        shell: Tells if it is a shell command or not
+        returns: the output of the command
+        """
+        adb_command = ["adb", "-s", self.selected_device]
+        if shell: adb_command.append("shell")
+        adb_command += command.split()
+
+        try:
+            cmd = subprocess.Popen(adb_command, stdout=subprocess.PIPE)
+            output, error = cmd.communicate()
+        except Exception as e:
+            print "Something super weird, please contact developer " + \
+                "with the log: %s\n"%e
+            return False
+            
+        if error == "":
+            return False, error
+        return True, output
     
+
+    def check_root_premission(self):
+        status, output = self.run_commnad("su")
+        if "not found" in output:
+            return False
+        return True
+            
+        
 if __name__ == "__main__":
     adb()._start()
     print "\nThanks!!!\n"

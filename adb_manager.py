@@ -47,7 +47,7 @@ class adb:
         if self.selected_device[1] != "device":
             print "ADB can not access the device as the status of the device: %s"%self.selected_device[1]
         else:
-            print "Selected Device: %s\n"%self.selected_device[0]
+            print "Selected Device for further security evaluation: %s\n"%self.selected_device[0]
         
         self.selected_device = self.selected_device[0]
 
@@ -94,7 +94,7 @@ class adb:
 
 
 
-    def run_commnad(self, command, shell=True):
+    def run_command(self, command, shell=True):
         """
         commnad: adb shell command, takes as a string
         shell: Tells if it is a shell command or not
@@ -118,7 +118,7 @@ class adb:
     
 
     def check_root_premission(self):
-        status, output = self.run_commnad("su")
+        status, output = self.run_command("su")
         if "not found" in output:
             return False
         return True

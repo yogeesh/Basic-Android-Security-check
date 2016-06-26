@@ -6,7 +6,12 @@ class adb:
 
 
     def __init__(self):
-        pass
+        if not self.check_adb_installed():
+            print "\nPlease install \"Android Debug Bridge\"(ADB) " + \
+                            "to proceed further."
+            return 
+        else:
+            print "\nAndroid Debug Bridge is active!\n"
 
     
     def _start(self):
@@ -17,18 +22,12 @@ class adb:
            Single device - Automatic
            Multiple device - Manual
         """
-        if not self.check_adb_installed():
-            print "\nPlease install \"Android Debug Bridge\"(ADB) \
-                            to proceed further."
-        else:
-            print "\nAndroid Debug Bridge is active!\n"
-
 
         devices = self.get_devices()
         
         if devices == []:
-            print "Connect your android device/phone to the computer\
-                     and turn ON developer mode on the device"
+            print "Connect your android device/phone to the computer" + \
+                     "and turn ON developer mode on the device"
             return False
     
         elif len(devices) == 1:
@@ -124,6 +123,17 @@ class adb:
             return False
         return True
             
+
+    def check_phone_passcode_enabled():
+        """
+        Check if the passcode is enabled:
+        1. PIN lock
+        2. Pattern lock
+        3. Swipe lock
+        4. None, No lock!
+        """
+        pass
+        
         
 if __name__ == "__main__":
     adb()._start()

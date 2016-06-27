@@ -39,12 +39,14 @@ class rule_check:
         """
         
         self.check_usb_debugging()
+        raw_input("Please enable Android Debug Bridge(ADB), instructions are provided in document. \nPress Enter once ADB is enabled:")
         self.adb._start()
         self.check_app_debug()
         self.check_rooted_android()
         self.check_phone_locked()
         self.check_lock_strength()
         self.check_security_patch()
+        self.check_secure_adb()
         
         
     def check_usb_debugging(self):
@@ -204,16 +206,29 @@ class rule_check:
             
             
 
-    def secure_adb(self):
+    def check_secure_adb(self):
         """
         Checking if adb is running in secure mode.
         If not running in secure mode, phone can be connected to Debug Bridge 
         without acception RSA fingerprint check and adb can be acessed while in boot 
         and in recovery mode/boot.
         """
-        #TODO
-        pass
+        print "\nChecking for the secure adb conneciton"
+        status, output = self.adb.run_command("getprop ro.adb.secure")
+        if not status:
+            print "\tCheck if phone is connected properly and re-run"
+            print "\tProvide this log to developer: %s\n"%output
+            return
 
+
+        output = int(output)
+        if output == 1:
+            print "adb secure connection is active: high security"
+            self.security_level_monitor.append(self.HIGH_SEC)
+        else:
+            print "adb secure connection is not active: low security"
+            self.security_level_monitor.append(self.LOW_SEC)
+        
         
     def eval_security(self):
         """

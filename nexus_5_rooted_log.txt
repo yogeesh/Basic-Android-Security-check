@@ -1,0 +1,285 @@
+
+Android Debug Bridge is active!
+
+
+Checking if USB Debugging is enabled:
+	Please disconnect other devices which are not included in security evaluation!
+	Waiting for 10 secs:
+	usb debugging enabled: Medium Security
+
+Please enable Android Debug Bridge(ADB), instructions are provided in document. 
+Press Enter once ADB is enabled:Selected Device for further security evaluation: 03aa74ac215d38dd
+
+Checking for applications running in debug mode:
+	Detected %s installed applications 119
+	Testing app: com.android.providers.telephony
+		app not debuggable: high security
+	Testing app: com.google.android.googlequicksearchbox
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.snap
+		app not debuggable: high security
+	Testing app: com.android.providers.calendar
+		app not debuggable: high security
+	Testing app: com.android.providers.media
+		app not debuggable: high security
+	Testing app: com.google.android.onetimeinitializer
+		app not debuggable: high security
+	Testing app: com.qualcomm.shutdownlistner
+		app not debuggable: high security
+	Testing app: com.android.wallpapercropper
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.wallpapers.photophase
+		app not debuggable: high security
+	Testing app: com.android.documentsui
+		app not debuggable: high security
+	Testing app: com.android.galaxy4
+		app not debuggable: high security
+	Testing app: com.android.externalstorage
+		app not debuggable: high security
+	Testing app: com.oneman.freeusbtools
+		app not debuggable: high security
+	Testing app: com.android.htmlviewer
+		app not debuggable: high security
+	Testing app: com.android.mms.service
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.gello.browser
+		app not debuggable: high security
+	Testing app: com.android.providers.downloads
+		app not debuggable: high security
+	Testing app: com.android.messaging
+		app not debuggable: high security
+	Testing app: com.android.terminal
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.audiofx
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.providers.datausage
+		app debuggable: low security
+	Testing app: com.google.android.configupdater
+		app not debuggable: high security
+	Testing app: com.android.soundrecorder
+		app not debuggable: high security
+	Testing app: com.android.defcontainer
+		app not debuggable: high security
+	Testing app: com.cyanogenmod.setupwizard
+		app not debuggable: high security
+	Testing app: com.android.providers.downloads.ui
+		app not debuggable: high security
+	Testing app: com.android.vending
+		app not debuggable: high security
+	Testing app: com.android.pacprocessor
+		app not debuggable: high security
+	Testing app: com.lge.SprintHiddenMenu
+		app not debuggable: high security
+	Testing app: com.android.certinstaller
+		app not debuggable: high security
+	Testing app: com.android.carrierconfig
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.bugreport
+		app not debuggable: high security
+	Testing app: android
+		app not debuggable: high security
+	Testing app: com.lge.update
+		app not debuggable: high security
+	Testing app: com.android.contacts
+		app not debuggable: high security
+	Testing app: cyanogenmod.platform
+		app not debuggable: high security
+	Testing app: com.android.nfc
+		app not debuggable: high security
+	Testing app: com.android.stk
+		app not debuggable: high security
+	Testing app: com.android.backupconfirm
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.profiles
+		app not debuggable: high security
+	Testing app: com.cyanogenmod.lockclock
+		app not debuggable: high security
+	Testing app: kik.android
+		app not debuggable: high security
+	Testing app: com.android.provision
+		app not debuggable: high security
+	Testing app: com.android.statementservice
+		app not debuggable: high security
+	Testing app: com.android.wallpaper.holospiral
+		app not debuggable: high security
+	Testing app: com.android.calendar
+		app not debuggable: high security
+	Testing app: com.android.phasebeam
+		app not debuggable: high security
+	Testing app: com.google.android.setupwizard
+		app not debuggable: high security
+	Testing app: com.qualcomm.qcrilmsgtunnel
+		app not debuggable: high security
+	Testing app: com.android.providers.settings
+		app not debuggable: high security
+	Testing app: com.android.sharedstoragebackup
+		app not debuggable: high security
+	Testing app: com.google.android.music
+		app not debuggable: high security
+	Testing app: com.android.printspooler
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.livelockscreen.service
+		app not debuggable: high security
+	Testing app: com.android.dreams.basic
+		app not debuggable: high security
+	Testing app: com.android.frameworks.telresources
+		app not debuggable: high security
+	Testing app: com.android.webview
+		app not debuggable: high security
+	Testing app: com.android.inputdevices
+		app not debuggable: high security
+	Testing app: com.redbend.vdmc
+		app not debuggable: high security
+	Testing app: com.estrongs.android.pop
+		app not debuggable: high security
+	Testing app: com.google.android.apps.maps
+		app not debuggable: high security
+	Testing app: com.mwr.example.sieve
+		app debuggable: low security
+	Testing app: com.cyanogenmod.updater
+		app not debuggable: high security
+	Testing app: com.android.cellbroadcastreceiver
+		app not debuggable: high security
+	Testing app: com.android.server.telecom
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.screencast
+		app not debuggable: high security
+	Testing app: com.google.android.syncadapters.contacts
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.themes.provider
+		app not debuggable: high security
+	Testing app: com.android.facelock
+		app not debuggable: high security
+	Testing app: com.android.keychain
+		app not debuggable: high security
+	Testing app: com.cyanogenmod.wallpapers
+		app not debuggable: high security
+	Testing app: com.android.dialer
+		app not debuggable: high security
+	Testing app: com.android.gallery3d
+		app not debuggable: high security
+	Testing app: com.cyanogenmod.trebuchet
+		app not debuggable: high security
+	Testing app: com.google.android.packageinstaller
+		app not debuggable: high security
+	Testing app: com.google.android.gms
+		app not debuggable: high security
+	Testing app: com.google.android.gsf
+		app not debuggable: high security
+	Testing app: com.google.android.tts
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.cmsettings
+		app not debuggable: high security
+	Testing app: com.android.calllogbackup
+		app not debuggable: high security
+	Testing app: com.google.android.partnersetup
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.theme.chooser
+		app not debuggable: high security
+	Testing app: com.svox.pico
+		app not debuggable: high security
+	Testing app: com.android.proxyhandler
+		app not debuggable: high security
+	Testing app: com.cyanogenmod.filemanager
+		app not debuggable: high security
+	Testing app: com.android.inputmethod.latin
+		app not debuggable: high security
+	Testing app: com.google.android.feedback
+		app not debuggable: high security
+	Testing app: com.google.android.syncadapters.calendar
+		app not debuggable: high security
+	Testing app: com.android.managedprovisioning
+		app not debuggable: high security
+	Testing app: com.android.dreams.phototable
+		app not debuggable: high security
+	Testing app: com.android.noisefield
+		app not debuggable: high security
+	Testing app: com.google.android.gsf.login
+		app not debuggable: high security
+	Testing app: com.android.smspush
+		app not debuggable: high security
+	Testing app: com.android.wallpaper.livepicker
+		app not debuggable: high security
+	Testing app: com.android.apps.tag
+		app not debuggable: high security
+	Testing app: jackpal.androidterm
+		app not debuggable: high security
+	Testing app: com.mwr.dz
+		app debuggable: low security
+	Testing app: com.google.android.backuptransport
+		app not debuggable: high security
+	Testing app: com.android.settings
+		app not debuggable: high security
+	Testing app: com.cyanogenmod.eleven
+		app not debuggable: high security
+	Testing app: com.android.calculator2
+		app not debuggable: high security
+	Testing app: com.google.android.projection.gearhead
+		app not debuggable: high security
+	Testing app: com.android.wallpaper
+		app not debuggable: high security
+	Testing app: com.android.vpndialogs
+		app not debuggable: high security
+	Testing app: com.android.email
+		app not debuggable: high security
+	Testing app: com.android.phone
+		app not debuggable: high security
+	Testing app: com.android.shell
+		app not debuggable: high security
+	Testing app: com.android.providers.userdictionary
+		app not debuggable: high security
+	Testing app: com.android.location.fused
+		app not debuggable: high security
+	Testing app: com.android.deskclock
+		app not debuggable: high security
+	Testing app: com.android.systemui
+		app not debuggable: high security
+	Testing app: com.android.exchange
+		app not debuggable: high security
+	Testing app: com.android.bluetoothmidiservice
+		app not debuggable: high security
+	Testing app: com.android.bluetooth
+		app not debuggable: high security
+	Testing app: com.qualcomm.timeservice
+		app not debuggable: high security
+	Testing app: com.android.development
+		app not debuggable: high security
+	Testing app: com.android.providers.contacts
+		app not debuggable: high security
+	Testing app: com.android.captiveportallogin
+		app not debuggable: high security
+	Testing app: org.cyanogenmod.weather.provider
+		app not debuggable: high security
+	
+Total debugge mode enabled applications: 3
+	Application with debug mode enabled: 
+		org.cyanogenmod.providers.datausage
+		com.mwr.example.sieve
+		com.mwr.dz
+
+Checking if the phone is rooted:
+	Andriod phone is rooted: low security
+
+Checking if the phone is locked with passcode:
+	Check if the screen is locked now and asking for:
+	1. passcode
+	2. pattern
+	4. None, no lock screen.
+choose the type of passcode(1/2/3): 	Android phone lock screen security: high
+
+Checking for passcode strength
+	please enter the passcode(if pattern, tell the number 0-9(16) considering it has matrix): 	Android phone lock screen security: low
+
+Checking security patch upto date or atleast near to latest:
+	Android almost upto date: high security
+
+Checking for the secure adb conneciton
+adb secure connection is active: high security
+
+```````````````````````
+Security level: 66.6666666667%
+
+
+Thanks :)
+
+

@@ -86,7 +86,7 @@ class rule_check:
         print "\tCheck if the screen is locked now and asking for:"
         print "\t1. passcode"
         print "\t2. pattern"
-        print "\t3. None, no lock screen."
+        print "\t4. None, no lock screen."
         for i in range(10):
             pass_type = int(raw_input("choose the type of passcode(1/2/3): "))
             if pass_type <=3 and pass_type >= 1:
@@ -172,7 +172,7 @@ class rule_check:
         if not status:
             print "\tCheck if phone is connected properly and re-run"
             return
-        
+
         output = output.strip().replace("package:", "").split("\n")
         total_app = len(output)
         print "\tDetected %s installed applications", total_app
@@ -198,7 +198,7 @@ class rule_check:
 
 
         if app_debuggable_count == 0:
-            self.security_level_monitor.append(HIGH_SEC)
+            self.security_level_monitor.append(self.HIGH_SEC)
         elif app_debuggable_count >= total_app*0.1:
             self.security_level_monitor.append(self.MEDIUM_SEC)
         else:

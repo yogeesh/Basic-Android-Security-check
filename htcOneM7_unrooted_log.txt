@@ -1,0 +1,742 @@
+
+Android Debug Bridge is active!
+
+
+Checking if USB Debugging is enabled:
+	Please disconnect other devices which are not included in security evaluation!
+	Waiting for 10 secs:
+	usb debugging enabled: Medium Security
+
+Please enable Android Debug Bridge(ADB), instructions are provided in document. 
+Press Enter once ADB is enabled:Selected Device for further security evaluation: HT35ZW913811
+
+Checking for applications running in debug mode:
+	Detected %s installed applications 346
+	Testing app: org.telegram.messenger
+		app not debuggable: high security
+	Testing app: com.mtag.att.codescanner
+		app not debuggable: high security
+	Testing app: com.quora.android
+		app not debuggable: high security
+	Testing app: com.ojassoft.astrosage
+		app not debuggable: high security
+	Testing app: com.htc.framework
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xeng_uk
+		app not debuggable: high security
+	Testing app: com.htc.CustomizationSetup
+		app not debuggable: high security
+	Testing app: com.htc
+		app not debuggable: high security
+	Testing app: com.htc.powersavinglauncher
+		app not debuggable: high security
+	Testing app: com.android.packageinstaller
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xdut
+		app not debuggable: high security
+	Testing app: com.htc.htcpowermanager
+		app not debuggable: high security
+	Testing app: com.android.providers.userdictionary
+		app not debuggable: high security
+	Testing app: com.monotype.android.font.lcd
+		app not debuggable: high security
+	Testing app: com.htc.cs
+		app not debuggable: high security
+	Testing app: com.lmi.htc.rescue
+		app not debuggable: high security
+	Testing app: com.android.apps.tag
+		app not debuggable: high security
+	Testing app: cn.wps.moffice_eng
+		app not debuggable: high security
+	Testing app: com.google.android.apps.cloudprint
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xkaz
+		app not debuggable: high security
+	Testing app: com.htc.htcgpswidget
+		app not debuggable: high security
+	Testing app: com.htc.launcherupdatescreen
+		app not debuggable: high security
+	Testing app: com.google.android.googlequicksearchbox
+		app not debuggable: high security
+	Testing app: net.one97.paytm
+		app not debuggable: high security
+	Testing app: com.htc.android.home.res
+		app not debuggable: high security
+	Testing app: com.android.providers.partnerbookmarks
+		app not debuggable: high security
+	Testing app: com.htc.AutoMotive.Traffic
+		app not debuggable: high security
+	Testing app: com.htc.launcher
+		app not debuggable: high security
+	Testing app: com.htc.syncwidget
+		app not debuggable: high security
+	Testing app: com.htc.htcdlnamiddlelayer
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xpol
+		app not debuggable: high security
+	Testing app: com.android.managedprovisioning
+		app not debuggable: high security
+	Testing app: com.htc.browser.providerproxy
+		app not debuggable: high security
+	Testing app: com.htc.videowidget.res
+		app not debuggable: high security
+	Testing app: com.google.android.play.games
+		app not debuggable: high security
+	Testing app: com.htc.customappinstaller
+		app not debuggable: high security
+	Testing app: com.google.android.feedback
+		app not debuggable: high security
+	Testing app: tunein.player
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xrus
+		app not debuggable: high security
+	Testing app: com.pandora.android
+		app not debuggable: high security
+	Testing app: com.snapchat.android
+		app not debuggable: high security
+	Testing app: com.htc.contacts
+		app not debuggable: high security
+	Testing app: com.htc.sense.socialnetwork.instagram
+		app not debuggable: high security
+	Testing app: com.expensemanager
+		app not debuggable: high security
+	Testing app: com.google.android.onetimeinitializer
+		app not debuggable: high security
+	Testing app: com.android.CSDFunctionG
+		app not debuggable: high security
+	Testing app: com.android.inputdevices
+		app not debuggable: high security
+	Testing app: uk.co.shenye.android.inputmethod.latin
+		app not debuggable: high security
+	Testing app: com.htc.calculator.widget
+		app not debuggable: high security
+	Testing app: org.zwanoo.android.speedtest
+		app not debuggable: high security
+	Testing app: com.android.bluetooth
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xita
+		app not debuggable: high security
+	Testing app: com.android.printspooler
+		app not debuggable: high security
+	Testing app: com.telenav.app.android.cingular
+		app not debuggable: high security
+	Testing app: com.redbend.vdmc
+		app not debuggable: high security
+	Testing app: com.google.android.apps.maps
+		app not debuggable: high security
+	Testing app: com.htc.tetheringguard
+		app not debuggable: high security
+	Testing app: com.monotype.android.font.helvetica
+		app not debuggable: high security
+	Testing app: com.android.vpndialogs
+		app not debuggable: high security
+	Testing app: com.htc.providers.uploads
+		app not debuggable: high security
+	Testing app: com.htc.providers.settings
+		app not debuggable: high security
+	Testing app: com.symplicity.careers
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xlav
+		app not debuggable: high security
+	Testing app: com.everimaging.photoeffectstudio
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xspa
+		app not debuggable: high security
+	Testing app: com.htc.autobot
+		app not debuggable: high security
+	Testing app: com.evezzon.nightowl
+		app not debuggable: high security
+	Testing app: com.htc.notes
+		app not debuggable: high security
+	Testing app: com.android.server.telecom
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xslv
+		app not debuggable: high security
+	Testing app: net.dinglisch.android.taskerm
+		app not debuggable: high security
+	Testing app: com.wildtangent.android
+		app not debuggable: high security
+	Testing app: com.htc.htchotspotwidget
+		app not debuggable: high security
+	Testing app: com.android.defcontainer
+		app not debuggable: high security
+	Testing app: com.estrongs.android.pop
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xara
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xhun
+		app not debuggable: high security
+	Testing app: com.google.android.gm
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xsrp
+		app not debuggable: high security
+	Testing app: com.android.systemui
+		app not debuggable: high security
+	Testing app: com.android.nfc
+		app not debuggable: high security
+	Testing app: com.htc.lockscreen
+		app not debuggable: high security
+	Testing app: com.viber.voip
+		app not debuggable: high security
+	Testing app: com.android.providers.calendar
+		app not debuggable: high security
+	Testing app: com.android.vending
+		app not debuggable: high security
+	Testing app: com.htc.Weather
+		app not debuggable: high security
+	Testing app: com.htc.android.worldclock
+		app not debuggable: high security
+	Testing app: com.careerfairplus.rit_ny
+		app not debuggable: high security
+	Testing app: com.android.providers.downloads
+		app not debuggable: high security
+	Testing app: com.htc.provider.settings
+		app not debuggable: high security
+	Testing app: com.google.android.gsf
+		app not debuggable: high security
+	Testing app: com.htc.provider.CustomizationSettings
+		app not debuggable: high security
+	Testing app: com.htc.sense.hsp
+		app not debuggable: high security
+	Testing app: com.alesig.rgrta
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xukr
+		app not debuggable: high security
+	Testing app: com.bravolang.russian
+		app not debuggable: high security
+	Testing app: com.amazon.kindle
+		app not debuggable: high security
+	Testing app: com.google.android.youtube
+		app not debuggable: high security
+	Testing app: com.htc.sense.socialnetwork.facebook
+		app not debuggable: high security
+	Testing app: com.android.htmlviewer
+		app not debuggable: high security
+	Testing app: com.adobe.reader
+		app not debuggable: high security
+	Testing app: com.htc.android.mail
+		app not debuggable: high security
+	Testing app: com.nero.android.htc.sync
+		app not debuggable: high security
+	Testing app: com.android.location.fused
+		app not debuggable: high security
+	Testing app: com.htc.omadm.settings
+		app not debuggable: high security
+	Testing app: com.funforfones.android.chicagocta
+		app not debuggable: high security
+	Testing app: com.anydo
+		app not debuggable: high security
+	Testing app: com.htc.rosiewidgets.screentimeout
+		app not debuggable: high security
+	Testing app: com.htc.accessory
+		app not debuggable: high security
+	Testing app: com.htc.smartdim
+		app not debuggable: high security
+	Testing app: edu.rit.ritmobile
+		app not debuggable: high security
+	Testing app: com.mobilemotion.dubsmash
+		app not debuggable: high security
+	Testing app: com.htc.sense.mms
+		app not debuggable: high security
+	Testing app: com.android.providers.contacts
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xarm
+		app not debuggable: high security
+	Testing app: com.htc.android.locationpicker
+		app not debuggable: high security
+	Testing app: com.infraware.docmaster
+		app not debuggable: high security
+	Testing app: com.htc.rosiewidgets.dataroaming
+		app debuggable: low security
+	Testing app: com.noom.walk
+		app not debuggable: high security
+	Testing app: com.microsoft.office.outlook
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xpor
+		app not debuggable: high security
+	Testing app: me.banter.android
+		app not debuggable: high security
+	Testing app: com.spotify.mobile.android.ui
+		app not debuggable: high security
+	Testing app: com.nxp.nfceeapi.service
+		app not debuggable: high security
+	Testing app: com.google.android.androidforwork
+		app not debuggable: high security
+	Testing app: com.google.android.apps.magazines
+		app not debuggable: high security
+	Testing app: com.google.android.setupwizard
+		app not debuggable: high security
+	Testing app: com.htc.htcmobilenetworkwidget
+		app not debuggable: high security
+	Testing app: com.htc.FMRadioWidget
+		app not debuggable: high security
+	Testing app: com.google.android.apps.genie.geniewidget
+		app not debuggable: high security
+	Testing app: com.android.incallui
+		app not debuggable: high security
+	Testing app: com.example.test
+		app debuggable: low security
+	Testing app: com.android.wallpaper
+		app not debuggable: high security
+	Testing app: com.htc.task.gtask
+		app not debuggable: high security
+	Testing app: com.melodis.midomiMusicIdentifier.freemium
+		app not debuggable: high security
+	Testing app: com.woodslink.android.wiredheadphoneroutingfix
+		app not debuggable: high security
+	Testing app: com.drivemode
+		app not debuggable: high security
+	Testing app: com.indiatravel.apps
+		app not debuggable: high security
+	Testing app: com.accuweather.android
+		app not debuggable: high security
+	Testing app: com.htc.sense.socialnetwork.twitter
+		app not debuggable: high security
+	Testing app: com.instagram.android
+		app not debuggable: high security
+	Testing app: com.supercell.clashroyale
+		app not debuggable: high security
+	Testing app: com.imagineclarity.clarity
+		app not debuggable: high security
+	Testing app: com.android.captiveportallogin
+		app not debuggable: high security
+	Testing app: com.google.android.gms
+		app not debuggable: high security
+	Testing app: com.mocana.vpn.android.gui
+		app not debuggable: high security
+	Testing app: com.google.android.configupdater
+		app not debuggable: high security
+	Testing app: com.htc.task
+		app not debuggable: high security
+	Testing app: com.bookmarkshortcut20130131163148103
+		app not debuggable: high security
+	Testing app: com.htc.fm
+		app not debuggable: high security
+	Testing app: com.the.hacker.news
+		app not debuggable: high security
+	Testing app: com.htc.resetnotify
+		app not debuggable: high security
+	Testing app: com.squareup.cash
+		app not debuggable: high security
+	Testing app: com.lexa.fakegps
+		app not debuggable: high security
+	Testing app: com.htc.home.personalize
+		app not debuggable: high security
+	Testing app: com.android.pacprocessor
+		app not debuggable: high security
+	Testing app: com.htc.MusicWidget
+		app not debuggable: high security
+	Testing app: com.htc.ringtonetrimmer
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xmay
+		app not debuggable: high security
+	Testing app: com.android.wallpaper.holospiral
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xfin
+		app not debuggable: high security
+	Testing app: com.monotype.android.font.yuen
+		app not debuggable: high security
+	Testing app: com.htc.cs.identity
+		app not debuggable: high security
+	Testing app: com.htc.cirmodule
+		app not debuggable: high security
+	Testing app: com.htc.htccalendarwidgets
+		app not debuggable: high security
+	Testing app: com.google.android.apps.books
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xtha
+		app not debuggable: high security
+	Testing app: com.facebook.orca
+		app not debuggable: high security
+	Testing app: com.android.facelock
+		app not debuggable: high security
+	Testing app: com.for2w.appshare
+		app not debuggable: high security
+	Testing app: com.htc.updater
+		app not debuggable: high security
+	Testing app: com.htc.AutoMotive
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xper
+		app not debuggable: high security
+	Testing app: com.android.stk
+		app not debuggable: high security
+	Testing app: com.htc.videohub.ui
+		app not debuggable: high security
+	Testing app: com.htc.android.htcsetupwizard
+		app not debuggable: high security
+	Testing app: com.htc.zero
+		app not debuggable: high security
+	Testing app: com.google.android.gsf.login
+		app not debuggable: high security
+	Testing app: com.harlandfs.ofx.mobile.fiid222382292
+		app not debuggable: high security
+	Testing app: com.matchboxmobile.wisp
+		app not debuggable: high security
+	Testing app: com.surpax.ledflashlight.panel
+		app not debuggable: high security
+	Testing app: com.htc.backupreset
+		app not debuggable: high security
+	Testing app: com.venmo
+		app not debuggable: high security
+	Testing app: com.android.backupconfirm
+		app not debuggable: high security
+	Testing app: com.htc.rosiewidgets.powerstrip
+		app not debuggable: high security
+	Testing app: com.htc.rosiewidgets.backgrounddata
+		app debuggable: low security
+	Testing app: com.android.providers.downloads.ui
+		app not debuggable: high security
+	Testing app: com.android.externalstorage
+		app not debuggable: high security
+	Testing app: com.att.android.attsmartwifi
+		app not debuggable: high security
+	Testing app: com.htc.htclocationservice
+		app not debuggable: high security
+	Testing app: com.olacabs.customer
+		app not debuggable: high security
+	Testing app: com.htc.calculator
+		app not debuggable: high security
+	Testing app: com.htc.autobot.cargps.provider
+		app not debuggable: high security
+	Testing app: com.htc.cloudstorage.drive
+		app not debuggable: high security
+	Testing app: com.htc.fmservice
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xcze
+		app not debuggable: high security
+	Testing app: com.htc.cloudstorage.dropbox
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xslo
+		app not debuggable: high security
+	Testing app: com.htc.drawingboard
+		app not debuggable: high security
+	Testing app: com.htc.widget.profile
+		app not debuggable: high security
+	Testing app: com.htc.cs.pns
+		app not debuggable: high security
+	Testing app: com.htc.mms.backupagent
+		app not debuggable: high security
+	Testing app: com.htc.usage
+		app not debuggable: high security
+	Testing app: com.android.shell
+		app not debuggable: high security
+	Testing app: com.supercell.clashofclans
+		app not debuggable: high security
+	Testing app: com.android.chrome
+		app not debuggable: high security
+	Testing app: com.android.proxyhandler
+		app not debuggable: high security
+	Testing app: com.pixlr.express
+		app not debuggable: high security
+	Testing app: com.google.android.marvin.talkback
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xdan
+		app not debuggable: high security
+	Testing app: com.dewmobile.kuaiya
+		app not debuggable: high security
+	Testing app: com.intsig.camscanner
+		app not debuggable: high security
+	Testing app: com.htc.android.voicedictation
+		app not debuggable: high security
+	Testing app: com.htc.htcbtwidget
+		app not debuggable: high security
+	Testing app: com.htc.lmw
+		app not debuggable: high security
+	Testing app: com.htc.reminderview.res
+		app not debuggable: high security
+	Testing app: com.android.keychain
+		app not debuggable: high security
+	Testing app: com.diune.pictures
+		app not debuggable: high security
+	Testing app: com.htc.contacts.frisbee
+		app not debuggable: high security
+	Testing app: com.yellowpages.android.ypmobile
+		app not debuggable: high security
+	Testing app: com.google.android.apps.photos
+		app not debuggable: high security
+	Testing app: com.htc.widget.autorotate
+		app not debuggable: high security
+	Testing app: com.htc.stock
+		app not debuggable: high security
+	Testing app: com.htc.htccontactwidgets
+		app not debuggable: high security
+	Testing app: com.android.dreams.basic
+		app not debuggable: high security
+	Testing app: com.htc.wifidisplay
+		app not debuggable: high security
+	Testing app: com.android.noisefield
+		app not debuggable: high security
+	Testing app: com.att.android.mobile.attmessages
+		app not debuggable: high security
+	Testing app: polis.app.callrecorder
+		app not debuggable: high security
+	Testing app: com.google.android.street
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xger
+		app not debuggable: high security
+	Testing app: com.android.phasebeam
+		app not debuggable: high security
+	Testing app: com.bianor.amspersonal
+		app not debuggable: high security
+	Testing app: com.htc.htccupd
+		app not debuggable: high security
+	Testing app: com.htc.sense.socialnetwork.googleplus
+		app not debuggable: high security
+	Testing app: htc.RebootWarning
+		app not debuggable: high security
+	Testing app: com.android.phone
+		app not debuggable: high security
+	Testing app: com.sorrosoft.datalock
+		app debuggable: low security
+	Testing app: com.htc.mobiledata
+		app debuggable: low security
+	Testing app: com.google.android.apps.plus
+		app not debuggable: high security
+	Testing app: com.nineideas.way2smslibrary
+		app not debuggable: high security
+	Testing app: com.android.certinstaller
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xrum
+		app not debuggable: high security
+	Testing app: android
+		app not debuggable: high security
+	Testing app: com.htc.demoflopackageinstaller
+		app not debuggable: high security
+	Testing app: com.android.providers.telephony
+		app not debuggable: high security
+	Testing app: com.google.android.webview
+		app not debuggable: high security
+	Testing app: com.evernote
+		app not debuggable: high security
+	Testing app: com.twitter.android
+		app not debuggable: high security
+	Testing app: com.htc.widget.weatherclock
+		app not debuggable: high security
+	Testing app: com.lenovo.anyshare.gps
+		app not debuggable: high security
+	Testing app: com.htc.album
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xswe
+		app not debuggable: high security
+	Testing app: com.htc.csrecommend
+		app not debuggable: high security
+	Testing app: com.mocana.vpn.android
+		app not debuggable: high security
+	Testing app: com.google.android.apps.inbox
+		app not debuggable: high security
+	Testing app: com.google.android.music
+		app not debuggable: high security
+	Testing app: kr.aboy.tools
+		app not debuggable: high security
+	Testing app: com.htc.filemanager
+		app not debuggable: high security
+	Testing app: com.htc.music
+		app not debuggable: high security
+	Testing app: com.google.android.apps.authenticator2
+		app not debuggable: high security
+	Testing app: me.lyft.android
+		app not debuggable: high security
+	Testing app: com.avast.android.at_play
+		app not debuggable: high security
+	Testing app: com.htc.widget.ringtone
+		app not debuggable: high security
+	Testing app: com.htc.provider.notes
+		app not debuggable: high security
+	Testing app: com.google.android.talk
+		app not debuggable: high security
+	Testing app: com.google.zxing.client.android
+		app not debuggable: high security
+	Testing app: com.htc.sense.linkedin
+		app not debuggable: high security
+	Testing app: com.android.musicvis
+		app not debuggable: high security
+	Testing app: com.cequint.ecid
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime
+		app not debuggable: high security
+	Testing app: com.htc.htcwifiwidget
+		app not debuggable: high security
+	Testing app: com.alesig.rts
+		app not debuggable: high security
+	Testing app: com.htc.FilePicker
+		app not debuggable: high security
+	Testing app: com.android.documentsui
+		app not debuggable: high security
+	Testing app: com.niksoftware.snapseed
+		app not debuggable: high security
+	Testing app: com.android.settings
+		app not debuggable: high security
+	Testing app: com.android.sharedstoragebackup
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xnor
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xlit
+		app not debuggable: high security
+	Testing app: org.simalliance.openmobileapi.service
+		app not debuggable: high security
+	Testing app: com.htc.checkinprovider
+		app not debuggable: high security
+	Testing app: com.android.wallpapercropper
+		app not debuggable: high security
+	Testing app: com.facebook.katana
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xest
+		app not debuggable: high security
+	Testing app: foursqwifi.aithanasakis
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xcat
+		app not debuggable: high security
+	Testing app: com.htc.WifiRouter
+		app not debuggable: high security
+	Testing app: com.ubercab
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xeng
+		app not debuggable: high security
+	Testing app: com.htc.musicenhancer
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.mindic
+		app not debuggable: high security
+	Testing app: com.whatsapp
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xgre
+		app not debuggable: high security
+	Testing app: com.htc.calendar
+		app not debuggable: high security
+	Testing app: com.futuredial
+		app not debuggable: high security
+	Testing app: com.htc.dnatransfer
+		app not debuggable: high security
+	Testing app: com.majedev.superbeam
+		app not debuggable: high security
+	Testing app: com.wavemarket.waplauncher
+		app not debuggable: high security
+	Testing app: com.htc.rosiewidgets.screenbrightness
+		app not debuggable: high security
+	Testing app: com.android.providers.htcmessage
+		app not debuggable: high security
+	Testing app: com.google.android.videos
+		app not debuggable: high security
+	Testing app: com.google.android.syncadapters.contacts
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xhrv
+		app not debuggable: high security
+	Testing app: com.android.providers.settings
+		app not debuggable: high security
+	Testing app: com.google.android.syncadapters.calendar
+		app not debuggable: high security
+	Testing app: com.mxtech.videoplayer.ad
+		app not debuggable: high security
+	Testing app: com.google.android.backuptransport
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xheb
+		app not debuggable: high security
+	Testing app: com.htc.soundrecorder
+		app not debuggable: high security
+	Testing app: com.htc.sdm
+		app not debuggable: high security
+	Testing app: com.att.android.digitallocker
+		app not debuggable: high security
+	Testing app: com.att.myWireless
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xfre
+		app not debuggable: high security
+	Testing app: com.htc.sense.browser
+		app not debuggable: high security
+	Testing app: com.internet.speed.meter.lite
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xind
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.mvie
+		app not debuggable: high security
+	Testing app: com.jwsoft.nfcactionlauncher
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xbul
+		app not debuggable: high security
+	Testing app: com.htc.cs.dm
+		app not debuggable: high security
+	Testing app: com.htc.HTCSpeaker
+		app not debuggable: high security
+	Testing app: com.mobitv.client.tv
+		app not debuggable: high security
+	Testing app: com.htc.syncml.service
+		app not debuggable: high security
+	Testing app: com.google.android.apps.docs
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xchi
+		app not debuggable: high security
+	Testing app: com.htc.htccompressviewer
+		app not debuggable: high security
+	Testing app: com.Splitwise.SplitwiseMobile
+		app not debuggable: high security
+	Testing app: com.skype.raider
+		app not debuggable: high security
+	Testing app: com.ninegag.android.app
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.phwr
+		app not debuggable: high security
+	Testing app: com.android.mms.service
+		app not debuggable: high security
+	Testing app: com.google.android.tts
+		app not debuggable: high security
+	Testing app: com.htc.htcMessageUploader
+		app not debuggable: high security
+	Testing app: org.thoughtcrime.securesms
+		app not debuggable: high security
+	Testing app: com.android.providers.media
+		app not debuggable: high security
+	Testing app: com.htc.rosiewidgets.datastrip
+		app debuggable: low security
+	Testing app: com.lmi.htc.rescuesecurity
+		app not debuggable: high security
+	Testing app: game2048.b2048game.twozerofoureight2048.game
+		app not debuggable: high security
+	Testing app: com.htc.camera
+		app not debuggable: high security
+	Testing app: com.androidlost
+		app not debuggable: high security
+	Testing app: com.htc.sense.ime.langpack.xtur
+		app not debuggable: high security
+	Testing app: com.linkedin.android
+		app not debuggable: high security
+	Testing app: com.google.android.partnersetup
+		app not debuggable: high security
+	Testing app: com.htc.video
+		app not debuggable: high security
+	Testing app: com.nero.android.htc.sync.installer
+		app not debuggable: high security
+	
+Total debugge mode enabled applications: 6
+	Application with debug mode enabled: 
+		com.htc.rosiewidgets.dataroaming
+		com.example.test
+		com.htc.rosiewidgets.backgrounddata
+		com.sorrosoft.datalock
+		com.htc.mobiledata
+		com.htc.rosiewidgets.datastrip
+
+Checking if the phone is rooted:
+	Android phone not rooted: high security
+
+Checking if the phone is locked with passcode:
+	Check if the screen is locked now and asking for:
+	1. passcode
+	2. pattern
+	4. None, no lock screen.
+choose the type of passcode(1/2/3): 	Android phone lock screen security: high
+
+Checking for passcode strength
+	please enter the passcode(if pattern, tell the number 0-9(16) considering it has matrix): 	Android phone lock screen security: low
+
+Checking security patch upto date or atleast near to latest:
+	Android was not updated for few months: medium security
+
+Checking for the secure adb conneciton
+adb secure connection is active: high security
+
+```````````````````````
+Security level: 71.4285714286%
+
+
+Thanks :)
+
+

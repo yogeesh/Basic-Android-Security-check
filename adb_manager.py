@@ -1,7 +1,10 @@
 import subprocess
 
 class adb:
-
+    """
+    adb functionalities
+    Author: Yogeesh Seralathan
+    """
     __slots__ = "selected_device"
 
 
@@ -102,7 +105,7 @@ class adb:
         """
         adb_command = ["adb", "-s", self.selected_device]
         if shell: adb_command.append("shell")
-        adb_command += command.split()
+        adb_command.append(command)
 
         try:
             cmd = subprocess.Popen(adb_command, stdout=subprocess.PIPE)
@@ -110,7 +113,7 @@ class adb:
         except Exception as e:
             print "Something super weird, please contact developer " + \
                 "with the log: %s\n"%e
-            return False
+            return False, ""
             
         if error == "":
             return False, error
@@ -118,23 +121,30 @@ class adb:
     
 
     def check_root_premission(self):
+        """
+        Check if the phone is rooted
+        """
         status, output = self.run_command("su")
         if "not found" in output:
             return False
         return True
-            
+        
+        
+    def run_in_root(self):
+        """
+        Run adb in root mode. 
+        All the adb commnad will run in root permission.
+        """
+        if self.check_root_premission:
+            print "Enabling root in adb"
+            status, output = self.run_command("root", shell=False)
+            if not status:
+                print "Oops! something went wrong enabling root in adb.\n", output
+                return False
+            return True
+        return False
 
-    def check_phone_passcode_enabled():
-        """
-        Check if the passcode is enabled:
-        1. PIN lock
-        2. Pattern lock
-        3. Swipe lock
-        4. None, No lock!
-        """
-        pass
-        
-        
 if __name__ == "__main__":
+    print "TEST"
     adb()._start()
     print "\nThanks!!!\n"

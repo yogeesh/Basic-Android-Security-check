@@ -182,7 +182,7 @@ class rule_check:
         for app in output:
             print "\tTesting app: %s"%app
             status, output = self.adb.run_command("echo 'pwd' | run-as %s"%app)
-            if "data" in output:
+            if "debuggable" in output:
                 print "\t\tapp debuggable: low security"
                 #self.security_level_monitor.append(self.LOW_SEC)
                 app_debuggable.append(app)
